@@ -19,7 +19,7 @@ namespace Assignment9.Repository
 
             {
                 //Connection
-                string connectionString = @"Server=DESKTOP-PNN68QT; Database=CoffeeShop; Integrated Security=True";
+                string connectionString = @"Server=DESKTOP-O7V3738; Database=CoffeeShop; Integrated Security=True";
                 SqlConnection sqlConnection = new SqlConnection(connectionString);
 
                 string commandString = @"INSERT INTO Customer (Name, Contact, Address, Code) Values ('" + name + "', " + number + "," +
@@ -55,7 +55,7 @@ namespace Assignment9.Repository
         {
             try
             {
-                string connectionString = @"Server=DESKTOP-PNN68QT; Database=CoffeeShop; Integrated Security=True";
+                string connectionString = @"Server=DESKTOP-O7V3738; Database=CoffeeShop; Integrated Security=True";
                 SqlConnection sqlConnection = new SqlConnection(connectionString);
 
                 //Command 
@@ -88,7 +88,7 @@ namespace Assignment9.Repository
         public DataTable ShowCustomerInfo()
         {
             //Connection
-            string connectionString = @"Server=DESKTOP-PNN68QT; Database=CoffeeShop; Integrated Security=True";
+            string connectionString = @"Server=DESKTOP-O7V3738; Database=CoffeeShop; Integrated Security=True";
             SqlConnection sqlConnection = new SqlConnection(connectionString);
             string commandString = @"SELECT * FROM Customer";
             SqlCommand sqlCommand = new SqlCommand(commandString, sqlConnection);
@@ -119,7 +119,7 @@ namespace Assignment9.Repository
             try
             {
                 //Connection
-                string connectionString = @"Server=DESKTOP-PNN68QT; Database=CoffeeShop; Integrated Security=True";
+                string connectionString = @"Server=DESKTOP-O7V3738; Database=CoffeeShop; Integrated Security=True";
                 SqlConnection sqlConnection = new SqlConnection(connectionString);
 
                 //Command 
@@ -148,7 +148,7 @@ namespace Assignment9.Repository
             
                 //Connection
                
-                string connectionString = @"Server=DESKTOP-PNN68QT; Database=CoffeeShop; Integrated Security=True";
+                string connectionString = @"Server=DESKTOP-O7V3738; Database=CoffeeShop; Integrated Security=True";
                 SqlConnection sqlConnection = new SqlConnection(connectionString);
 
                 //Command 
@@ -172,7 +172,7 @@ namespace Assignment9.Repository
             {
                 //Connection
                 
-                string connectionString = @"Server=DESKTOP-PNN68QT; Database=CoffeeShop; Integrated Security=True";
+                string connectionString = @"Server=DESKTOP-O7V3738; Database=CoffeeShop; Integrated Security=True";
                 SqlConnection sqlConnection = new SqlConnection(connectionString);
 
                 //Command 
